@@ -1,0 +1,52 @@
+﻿  miniwin.cpp
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(96,27): error C2440: '=': no se puede realizar la conversión de 'char [8]' a 'LPCWSTR'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(96,27): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(115,12): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': el argumento 2 no puede convertirse de 'char [8]' a 'LPCWSTR'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(117,9): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : vea la declaración de 'CreateWindowExW'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(115,12): message : al hacer coincidir la lista de argumentos '(int, char [8], const char [8], long, int, int, int, int, HWND, int, HINSTANCE, int)'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(140,20): warning C4244: 'return': conversión de 'WPARAM' a 'int'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(272,35): warning C4244: 'argumento': conversión de 'WPARAM' a 'int'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(331,13): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(332,13): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(341,16): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(345,16): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(366,9): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': el argumento 2 no puede convertirse de 'const _Elem *' a 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(366,35): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : vea la declaración de 'MessageBoxW'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(366,9): message : al hacer coincidir la lista de argumentos '(HWND, const _Elem *, const char [11], long)'
+          with
+          [
+              _Elem=char
+          ]
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(370,16): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': el argumento 2 no puede convertirse de 'const _Elem *' a 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(370,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : vea la declaración de 'MessageBoxW'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(370,16): message : al hacer coincidir la lista de argumentos '(HWND, const _Elem *, const char [12], long)'
+          with
+          [
+              _Elem=char
+          ]
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(457,9): error C2664: 'BOOL TextOutW(HDC,int,int,LPCWSTR,int)': el argumento 4 no puede convertirse de 'const _Elem *' a 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(457,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wingdi.h(5101,25): message : vea la declaración de 'TextOutW'
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\miniwin.cpp(457,9): message : al hacer coincidir la lista de argumentos '(HDC, int, int, const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  Prueba_CuboMagico.cpp
+  Generando código...
+D:\Users\sebas\Documents\Estructura de Datos\Estructura de Datos\VisualStudio\Prueba_CuboMagico\Prueba_CuboMagico\Prueba_CuboMagico.cpp(43): error C4716: '_main_': debe devolver un valor
